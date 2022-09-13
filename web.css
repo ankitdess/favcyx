@@ -1,0 +1,351 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 100%;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom-color: #eee;
+    transition: height .4s ease, opacity .3s ease;
+    position: relative;
+    padding: 0 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    z-index: 12;
+}
+
+.logo{
+    padding-right: 30px;
+    position: relative;
+    float:left;
+    display: block;
+    border-right: 0px !important;
+    margin-right: 0px !important;
+}
+
+.logo img{
+    display: block;
+    height: 100px;
+    transition: height .4s ease, opacity .3s ease;
+    display: block;
+    max-width: 100%;
+    border: none;
+}
+
+div.primary-nav{
+    float: right;
+}
+
+div.primary-nav ul li a{
+    display: block;
+    line-height: 22px;
+    padding:39px 15px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    color:#AF7594;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header{
+    position: relative;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+div.cont{
+    position: relative;
+}
+
+
+div.heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div.heading h1{
+    font-size: 30px;
+    margin-top: 80px !important;
+}
+
+div.banner{
+    min-height: 32px;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+div.banner img{
+    object-fit: cover;
+    width: 50%;
+}
+
+div.webinar{
+    text-align: center;
+}
+
+
+div.webinar p{
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #474747;
+}
+
+div.webinar p:nth-child(1){
+font-size: 20px;
+font-weight: bold;
+margin-top: 12px;
+color: #801F53;
+}
+
+div.rule{
+    width: 50%;
+    border-bottom: 2px dashed #D65E4F;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1.mainhead{
+    width: 50%;
+    margin: 0 auto;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 40px;  
+}
+
+
+span.i{
+    color: #801F53;
+}
+
+span.j{
+    color: #D65E4F;
+}
+
+p.message{
+    font-size: 40px;
+    width: 69%;
+    margin:0 auto;
+    font-weight: 500;
+}
+
+
+div.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 127px;
+}
+
+
+
+div.msg h1{
+    background: linear-gradient(to right,#FF914E, #D65E4F);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+    font-size: 40px;
+}
+
+div.bottom .msg p{
+    padding-bottom: 30px;
+    font-size: 20px;
+    padding-top: 60px;
+}
+div.bottom ul li{
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+a.icon{
+    display: block;
+    padding-top: 33px;
+    display: none;
+    font-size: 38px;
+    float: right;
+    color:#801F53;
+}
+
+
+div.mob-nav{
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 50px;
+    display: none;
+}
+
+div.mob-nav ul{
+list-style-type: none;
+text-align: center;
+}
+
+div.mob-nav ul li a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #AF7594;
+}
+
+div.cont{
+    padding-top: 120px;
+}
+
+
+div.pic{
+    padding: 0px 0px 0px 38px;
+}
+
+div.pad{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+h1.hed{
+    display: none;
+    text-align: center;
+    padding-bottom: 30px;
+    background: linear-gradient(to right,#FF914E, #D65E4F);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/*media queries*/
+@media(max-width:600px){
+    div.banner img{
+        width: 100%;
+    }
+
+    nav{
+        height: 60px;
+    }
+
+    div.cont{
+        padding-top:60px;
+    }
+
+    .logo img{
+        height: 60px;
+    }
+
+    a.icon{
+        display: block;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+
+    div.primary-nav{
+        display: none;
+    }
+
+    span.ham{
+        display: block;
+    }
+
+    h1.mainhead{
+        width: 80%;
+    }
+
+    a.icon{
+        display: block;
+    }
+
+    div.bottom{
+        flex-direction: column-reverse;
+        padding-top:30px
+    }
+
+    div.msg h1{
+        padding-top: 30px;
+    }
+
+    div.msg h1{
+        display: none;
+    }
+
+h1.hed{
+    display: block;
+}
+
+div.pad{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.pic{
+    padding: 0;
+}
+
+nav{
+    padding: 0 30px;
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p.message{
+    font-size: 30px;
+}
+
+}
