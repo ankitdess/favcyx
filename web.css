@@ -369,12 +369,16 @@ p.message{
     }
 }
 
-@media(min-width:1300px){
+@media(min-width:1000px){
     .container{
-        padding-left: 120px;
-        padding-right: 120px;
+        padding-left: 130px;
+        padding-right: 130px;
     }
     nav{
-        padding: 0 120px;
+        padding: 0 130px;
+    }
+
+    div.pic{
+        padding: 0px 0px 0px 20px;
     }
 }
