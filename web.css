@@ -368,3 +368,13 @@ p.message{
         align-items: flex-start;
     }
 }
+
+@media(min-width:1300px){
+    .container{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    nav{
+        padding: 0 120px;
+    }
+}
