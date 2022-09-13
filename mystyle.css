@@ -121,7 +121,7 @@ div.webinar{
 
 div.webinar p:nth-child(1){
 font-size: 22px;
-font-weight: 900;
+font-weight: 700;
 margin-top: 12px;
 margin-bottom: 19px;
 background: linear-gradient(to right,#801F53, #D65E4F);
@@ -274,7 +274,7 @@ span.gradient{
   -moz-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .ewebinar__ButtonText{
