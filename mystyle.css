@@ -1,0 +1,383 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins';
+    line-height: 1.1;
+}
+
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom-color: #eee;
+    transition: height .4s ease, opacity .3s ease;
+    position: relative;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    z-index: 12;
+}
+
+.logo{
+    padding-right: 30px;
+    position: relative;
+    float:left;
+    margin-left: 45px;
+    display: block;
+    border-right: 0px !important;
+    margin-right: 0px !important;
+}
+
+.logo img{
+    display: block;
+    height: 100px;
+    transition: height .4s ease, opacity .3s ease;
+    display: block;
+    max-width: 100%;
+    border: none;
+}
+
+div.primary-nav{
+    float: right;
+}
+
+div.primary-nav ul li a{
+    display: block;
+    line-height: 22px;
+    padding:39px 27px;
+    font-size: 20px;
+    font-family:'Poppins';
+    color:#AF7594;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header{
+    position: relative;
+    overflow: hidden;
+}
+
+div.cont{
+    position: relative;
+}
+
+
+div.heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div.heading h1{
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Poppins';
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+div.banner{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+div.banner img{
+    object-fit: cover;
+}
+
+div.webinar{
+    text-align: center;
+}
+
+
+div.webinar p:nth-child(1){
+font-size: 22px;
+font-weight: 900;
+margin-top: 12px;
+margin-bottom: 19px;
+background: linear-gradient(to right,#801F53, #D65E4F);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+
+
+p.txt{
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    color: #474747;
+}
+
+#txts p{
+line-height: 1.1;
+}
+
+div.rule{
+    width: 60%;
+    border-bottom: 1px dashed #D65E4F;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+h1.mainhead{
+    width: 50%;
+    margin: 0 auto;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 40px;  
+}
+
+
+span.i{
+    color: #801F53;
+}
+
+span.j{
+    color: #D65E4F;
+}
+
+p.message{
+    font-size: 40px;
+    width: 60%;
+    margin:0 auto;
+}
+
+
+div.bottom{
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 20px;
+}
+
+div.bottom .topmsg h1{
+    color: red;
+}
+
+div.topmsg{
+    grid-column: 1/-1;
+}
+
+div.bottom .msg p{
+    padding-bottom: 20px;
+}
+
+div.msg{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+div.bottom ul li{
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+
+div.pic{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+a.icon{
+    display: block;
+    padding-top: 33px;
+    display: none;
+    font-size: 38px;
+    float: right;
+    color:#801F53;
+}
+
+
+
+div.mob-nav{
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 48px;
+    display: none;
+}
+
+div.mob-nav ul{
+list-style-type: none;
+text-align: center;
+}
+
+div.mob-nav ul li a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #AF7594;
+}
+
+.widget{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+div.cont{
+    padding-top: 120px;
+}
+
+span.gradient{
+    background: linear-gradient(to right, #D65E4F,#801F53);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 900;
+}
+
+.ewebinar__ButtonText{
+    color: #ffffff;
+}
+
+@media(min-width:600px){
+
+div.heading h1{
+    margin-top: 100px !important;
+}
+}
+
+/*media queries*/
+@media(max-width:600px){
+    div.banner img{
+        width: 100%;
+    }
+
+    div.primary-nav{
+        display: none;
+    }
+
+    span.ham{
+        display: block;
+    }
+
+    h1.mainhead{
+        width: 100%;
+    }
+
+    div.heading h1{
+        font-size: 30px;
+    }
+
+    div.webinar p:nth-child(1){
+        font-size: 18px;
+    }
+
+    p.txt{
+        font-size: 16px;
+        line-height: 1.1;
+    }
+
+    a.icon{
+        display: block;
+        padding-top: 17px;
+        font-size: 30px;
+    }
+
+    div.heading h1{
+    margin-top: 100px !important;
+    
+    }
+
+    div.webinar p{
+        width: 100%;
+    }
+
+    div.banner{
+        width: 100%;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+
+    nav{
+        height: 60px;
+
+    }
+
+    div.rule{
+        margin-bottom: 20px;
+    }
+
+    .logo img{
+        height: 60px;
+    }
+}
+
+
+
+@media(max-width:450px){
+
+    div.heading h1{
+        font-size: 20px;
+    }
+    div.heading h1{
+        margin-top:90px !important;
+        margin-bottom:0px;
+    }
+
+    div.heading{
+        margin-bottom:24px;
+    }
+
+    div.webinar p:nth-child(1){
+        margin-top:0px;
+        margin-bottom: 8px;
+    }
+
+    .widget{
+        margin-top:22px;
+    }
+}
