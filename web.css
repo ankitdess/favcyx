@@ -362,4 +362,9 @@ p.message{
     div.bottom{
         padding-top: 20px;
     }
+
+    div.bottom{
+        justify-content:space-between;
+        align-items: flex-start;
+    }
 }
