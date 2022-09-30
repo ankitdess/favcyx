@@ -41,4 +41,6 @@ $(document).ready(function() {
         //$(this).addClass('collapse');
     })
 
+    $('.ewebinar__Widget').attr("z-index", "9999 !important");
+
 });
